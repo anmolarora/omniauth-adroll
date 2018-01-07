@@ -24,12 +24,21 @@ Or install it yourself as:
 
 If you are using rails, you need to add the gem to your Gemfile:
 
+```ruby
 gem 'omniauth-adroll'
+```
 You can pull them in directly from github e.g.:
 
+```ruby
 gem "omniauth-adroll", :git => "git://github.com/anmolarora/omniauth-adroll.git"
+```
 
 Add provider in omniauth.rb along with CLIENT_ID and CLIENT_SECRET
+
+e.g.
+```ruby
+provider :adroll, ADROLL_CLIENT_ID, ADROLL_CLIENT_SECRET, callback_url: ADROLL_CALLBACK_URL
+```
 
 Obtain your CLIENT_ID/CLIENT_SECRET by registering your app on- https://developers.adroll.com/user/register
 
