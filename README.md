@@ -1,5 +1,7 @@
 # Omniauth::Adroll
 
+[![Gem Version](https://badge.fury.io/rb/omniauth-adroll.svg)](https://badge.fury.io/rb/omniauth-adroll)
+
 This gem contains the Adroll strategy for OmniAuth.
 
 For more information about the Adroll Api authentication: https://developers.adroll.com/docs/guides/oauth.html#guide-oauth
